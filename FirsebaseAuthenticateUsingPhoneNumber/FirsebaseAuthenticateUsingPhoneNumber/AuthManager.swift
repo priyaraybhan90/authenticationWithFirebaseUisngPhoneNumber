@@ -24,8 +24,7 @@ class AuthManager: UIViewController, UITextFieldDelegate
           }
             UserDefaults.standard.set(verificationID, forKey: "authVerificationID")
             self.verifyPhoneNumberAlert(message: "Please enter verification code")
-          // Step 5: Verification ID is saved for later use for verifying OTP with phone number
-        
+ 
       }
     }
 
